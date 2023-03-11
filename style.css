@@ -124,18 +124,23 @@ body {
 
 .main_div {
     width: 100%;
-    height: 500px;
+    height: 5000px;
+}
+/* cpu section */
+
+#cpu-parent-section{
+    height: 1000px;
 }
 
-#parent-div {
+#cpu_parent-div {
     position: absolute;
     margin: 0px;
     width: 100%;
-    height: 500px;
+    height: 1000px;
     background-color: var(--bg-light-green-1);
 }
 
-#parent-div .grid-container {
+#cpu_parent-div .cpu_grid-container {
     position: relative;
     height: 100%;
     width: 100%;
@@ -145,33 +150,40 @@ body {
     margin: 0;
 }
 
-#parent-div .grid-container .grid-containerA {
-    padding-top: 20px;
-    width: 100%;
-    height: 220px;
+#cpu_parent-div .cpu_grid-container .cpu_grid-containerA{
+    padding-top: 0px;
+    margin: 30px;
+    width: 900px auto;
+    height: 250px;
     justify-content: center;
     text-align: center;
     align-items: center;
 }
 
-#parent-div .grid-container .grid-containerA .grid-title-description {
-    padding: 0px;
+#cpu_parent-div .cpu_grid-container .cpu_grid-containerA .cpu_grid-title-description {
     height: 200px;
     text-align: center;
     height: 100%;
     background-color: var(--bg-light-blue-5);
     border-radius: 10px;
     color: white;
-
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-#parent-div .grid-container .grid-containerA .grid-title-description h2,
-p {
+#cpu_parent-div .cpu_grid-container .cpu_grid-containerA .cpu_grid-title-description h2{
+  margin: 0;  
 
-    padding: 10px;
+  padding-bottom: 30px;
 }
 
-#parent-div .grid-container .grid-containerB {
+#cpu_parent-div .cpu_grid-container .cpu_grid-containerA .cpu_grid-title-description p{
+    margin: 0;
+    padding-bottom: 30px;
+}
+
+#cpu_parent-div .cpu_grid-container .cpu_grid-containerB {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-area: auto;
@@ -180,6 +192,10 @@ p {
     gap: 20px;
     align-items: center;
     margin: 0;
+}
+
+#cpu_parent-div .cpu_grid-container .cpu_grid-containerA .cpu_grid-title-description #cpu_h2 {
+    padding-top: 10px;
 }
 
 #parent-div .grid-container .grid-containerB .grid-items {
@@ -202,10 +218,155 @@ p {
     border-radius: 40px;
 }
 
-/* CPU SECTION */
+.cpu2 {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    border-radius: 40px;
 
+}
+.cpu3 {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    border-radius: 40px;
 
-.cpu_title {}
+}
+.cpu4 {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    border-radius: 40px;
+
+}
+.cpu5 {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    border-radius: 40px;
+
+}
+.cpu6 {
+    position: relative;
+    height: 300px;
+    width: 300px;
+    border-radius: 40px;
+
+}
+    
+
+/* gPU SECTION */
+
+#gpu-parent-section{
+    height: 1250px;
+}
+
+#gpu_parent-div {
+    position: absolute;
+    margin: 0px;
+    width: 100%;
+    height: 1250px;
+    background-color: var(--bg-light-green-1);
+}
+
+#gpu_parent-div .gpu_grid-container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    gap: 10px;
+    align-items: center;
+    margin: 0; }
+
+    #gpu_parent-div .gpu_grid-container .gpu_grid-containerA{
+        padding-top: 0px;
+        margin: 30px;
+        width: 900px auto;
+        height: 250px;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    
+    #gpu_parent-div .gpu_grid-container .gpu_grid-containerA .gpu_grid-title-description {
+        height: 200px;
+        text-align: center;
+        height: 100%;
+        background-color: var(--bg-light-blue-5);
+        border-radius: 10px;
+        color: white;
+        padding-top: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    #gpu_parent-div .gpu_grid-container .gpu_grid-containerA .gpu_grid-title-description h2{
+      margin: 0;  
+      padding-bottom: 30px;
+    }
+    
+    #gpu_parent-div .gpu_grid-container .gpu_grid-containerA .gpu_grid-title-description p{
+        margin: 0;
+        padding-bottom: 30px;
+    }
+    
+    #gpu_parent-div .gpu_grid-container .gpu_grid-containerB {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-area: auto;
+        height: fit-content;
+        padding: 10px;
+        gap: 20px;
+        align-items: center;
+        margin-left: 40px;
+    }
+    
+    
+    .gpu1 {
+        position: relative;
+        height: 280px;
+        width: 400px;
+        border-radius: 40px;
+        
+    }
+    
+    .gpu2 {
+        position: relative;
+        height: 280px;
+        width: 400px;
+        border-radius: 40px;
+    
+    }
+    .gpu3 {
+        position: relative;
+        height: 280px;
+        width: 400px;
+        border-radius: 40px;
+    
+    }
+    .gpu4 {
+        position: relative;
+        height: 280px;
+        width: 400px;
+        border-radius: 40px;
+    
+    }
+    .gpu5 {
+        position: relative;
+        height: 280px;
+        width: 400px;
+        border-radius: 40px;
+    
+    }
+    .gpu6 {
+        position: relative;
+        height: 280px;
+        width: 400px;
+        border-radius: 40px;
+    
+    }
+
+/* .cpu_title {}
 
 .cpu_title h2 {
     color: white;
@@ -232,11 +393,11 @@ p {
 
 .img_cpu {}
 
-.img_cpu img {}
+.img_cpu img {} */
 
 /* GPU SECTION */
 
-.gpu_section {}
+/* .gpu_section {}
 
 .gpu_title {}
 
@@ -265,11 +426,11 @@ p {
 
 .img_gpu {}
 
-.img_gpu img {}
+.img_gpu img {} */
 
 /* MOTHERBOARD SECTION */
 
-.motherboard_section {}
+/* .motherboard_section {}
 
 .motherboard_title {}
 
@@ -297,11 +458,11 @@ p {
 
 .img_motherboard {}
 
-.img_motherboard img {}
+.img_motherboard img {} */
 
 /* MOBILE PHONE SECTION */
 
-.mobile_phone_section {}
+/* .mobile_phone_section {}
 
 .mobile_phone_title {
     color: white;
@@ -332,11 +493,11 @@ p {
 
 .img_mobile_phone {}
 
-.img_mobile_phone img {}
+.img_mobile_phone img {} */
 
 /* MONITOR SECTION */
 
-.monitor_section {}
+/* .monitor_section {}
 
 .monitor_title {
     color: white;
@@ -370,4 +531,4 @@ p {
 .img_monitor img {}
 
 
-footer {}
+footer {} */
