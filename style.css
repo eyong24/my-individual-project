@@ -129,14 +129,14 @@ body {
 /* cpu section */
 
 #cpu-parent-section{
-    height: 1000px;
+    height: 1450px;
 }
 
 #cpu_parent-div {
     position: absolute;
     margin: 0px;
     width: 100%;
-    height: 1000px;
+    height: 1450px;
     background-color: var(--bg-light-green-1);
 }
 
@@ -185,7 +185,7 @@ body {
 
 #cpu_parent-div .cpu_grid-container .cpu_grid-containerB {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-area: auto;
     height: fit-content;
     padding: 10px;
@@ -198,64 +198,57 @@ body {
     padding-top: 10px;
 }
 
-#parent-div .grid-container .grid-containerB .grid-items {
-
-    cursor: pointer;
-    padding: 0px;
-    text-align: center;
-    width: 300px;
-    height: 300px;
-    line-height: 197px;
-    background-color: grey;
-    border-radius: 40px;
-
-}
-
 .cpu1 {
+    margin-left: 50px;
     position: relative;
-    height: 300px;
-    width: 300px;
+    height: 350px;
+    width: 350px;
     border-radius: 40px;
 }
 
 .cpu2 {
+    margin-left: 50px;
     position: relative;
-    height: 300px;
-    width: 300px;
+    height: 350px;
+    width: 350px;
     border-radius: 40px;
 
 }
 .cpu3 {
+    margin-left: 50px;
     position: relative;
-    height: 300px;
-    width: 300px;
+    height: 350px;
+    width: 350px;
     border-radius: 40px;
 
 }
 .cpu4 {
+    margin-left: 50px;
     position: relative;
-    height: 300px;
-    width: 300px;
+    height: 350px;
+    width: 350px;
     border-radius: 40px;
 
 }
 .cpu5 {
+    margin-left: 50px;
     position: relative;
-    height: 300px;
-    width: 300px;
+    height: 350px;
+    width: 350px;
     border-radius: 40px;
 
 }
 .cpu6 {
+    margin-left: 50px;
     position: relative;
-    height: 300px;
-    width: 300px;
+    height: 350px;
+    width: 350px;
     border-radius: 40px;
 
 }
     
 
-/* gPU SECTION */
+/* GPU SECTION */
 
 #gpu-parent-section{
     height: 1250px;
@@ -366,6 +359,448 @@ body {
     
     }
 
+    /* MOTHERBOARD */
+
+    #motherboard-parent-section{
+        height: 1250px;
+    }
+    
+    #motherboard_parent-div {
+        position: absolute;
+        margin: 0px;
+        width: 100%;
+        height: 1250px;
+        background-color: var(--bg-light-green-1);
+    }
+    
+    #motherboard_parent-div .motherboard_grid-container {
+        position: relative;
+        height: 100%;
+        width: 100%;
+        padding: 10px;
+        gap: 10px;
+        align-items: center;
+        margin: 0; }
+    
+        #motherboard_parent-div .motherboard_grid-container .motherboard_grid-containerA{
+            padding-top: 0px;
+            margin: 30px;
+            width: 900px auto;
+            height: 250px;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+        }
+        
+        #motherboard_parent-div .motherboard_grid-container .motherboard_grid-containerA .motherboard_grid-title-description {
+            height: 200px;
+            text-align: center;
+            height: 100%;
+            background-color: var(--bg-light-blue-5);
+            border-radius: 10px;
+            color: white;
+            padding-top: 30px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        
+        #motherboard_parent-div .motherboard_grid-container .motherboard_grid-containerA .motherboard_grid-title-description h2{
+          margin: 0;  
+          padding-bottom: 30px;
+        }
+        
+        #motherboard_parent-div .motherboard_grid-container .motherboard_grid-containerA .motherboard_grid-title-description p{
+            margin: 0;
+            padding-bottom: 30px;
+        }
+        
+        #motherboard_parent-div .motherboard_grid-container .motherboard_grid-containerB {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-area: auto;
+            height: fit-content;
+            padding: 10px;
+            gap: 20px;
+            align-items: center;
+            margin-left: 40px;
+        }
+        
+        
+        .motherboard1 {
+            position: relative;
+            height: 280px;
+            width: 400px;
+            border-radius: 40px;
+            
+        }
+        
+        .motherboard2 {
+            position: relative;
+            height: 280px;
+            width: 400px;
+            border-radius: 40px;
+        
+        }
+        .motherboard3 {
+            position: relative;
+            height: 280px;
+            width: 400px;
+            border-radius: 40px;
+        
+        }
+        .motherboard4 {
+            position: relative;
+            height: 280px;
+            width: 400px;
+            border-radius: 40px;
+        
+        }
+        .motherboard5 {
+            position: relative;
+            height: 280px;
+            width: 400px;
+            border-radius: 40px;
+        
+        }
+        .motherboard6 {
+            position: relative;
+            height: 280px;
+            width: 400px;
+            border-radius: 40px;
+        
+        }
+
+    #motherboard-parent-section{
+        height: 1250px;
+    }
+    
+    #motherboard_parent-div {
+        position: absolute;
+        margin: 0px;
+        width: 100%;
+        height: 1250px;
+        background-color: var(--bg-light-green-1);
+    }
+    
+    #motherboard_parent-div .motherboard_grid-container {
+        position: relative;
+        height: 100%;
+        width: 100%;
+        padding: 10px;
+        gap: 10px;
+        align-items: center;
+        margin: 0; }
+    
+        #motherboard_parent-div .motherboard_grid-container .motherboard_grid-containerA{
+            padding-top: 0px;
+            margin: 30px;
+            width: 900px auto;
+            height: 250px;
+            justify-content: center;
+            text-align: center;
+            align-items: center;
+        }
+        
+        #motherboard_parent-div .motherboard_grid-container .motherboard_grid-containerA .motherboard_grid-title-description {
+            height: 200px;
+            text-align: center;
+            height: 100%;
+            background-color: var(--bg-light-blue-5);
+            border-radius: 10px;
+            color: white;
+            padding-top: 30px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        
+        #motherboard_parent-div .motherboard_grid-container .motherboard_grid-containerA .motherboard_grid-title-description h2{
+          margin: 0;  
+          padding-bottom: 30px;
+        }
+        
+        #motherboard_parent-div .motherboard_grid-container .motherboard_grid-containerA .motherboard_grid-title-description p{
+            margin: 0;
+            padding-bottom: 30px;
+        }
+        
+        #motherboard_parent-div .motherboard_grid-container .motherboard_grid-containerB {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-area: auto;
+            height: fit-content;
+            padding: 10px;
+            gap: 20px;
+            align-items: center;
+            margin-left: 40px;
+        }
+        
+        
+        .motherboard1 {
+            position: relative;
+            height: 280px;
+            width: 400px;
+            border-radius: 40px;
+            
+        }
+        
+        .motherboard2 {
+            position: relative;
+            height: 280px;
+            width: 400px;
+            border-radius: 40px;
+        
+        }
+        .motherboard3 {
+            position: relative;
+            height: 280px;
+            width: 400px;
+            border-radius: 40px;
+        
+        }
+        .motherboard4 {
+            position: relative;
+            height: 280px;
+            width: 400px;
+            border-radius: 40px;
+        
+        }
+        .motherboard5 {
+            position: relative;
+            height: 280px;
+            width: 400px;
+            border-radius: 40px;
+        
+        }
+        .motherboard6 {
+            position: relative;
+            height: 280px;
+            width: 400px;
+            border-radius: 40px;
+        
+        }
+    
+        /* MONITOR */
+    
+        #monitor-parent-section{
+            height: 1250px;
+        }
+        
+        #monitor_parent-div {
+            position: absolute;
+            margin: 0px;
+            width: 100%;
+            height: 1250px;
+            background-color: var(--bg-light-green-1);
+        }
+        
+        #monitor_parent-div .monitor_grid-container {
+            position: relative;
+            height: 100%;
+            width: 100%;
+            padding: 10px;
+            gap: 10px;
+            align-items: center;
+            margin: 0; }
+        
+            #monitor_parent-div .monitor_grid-container .monitor_grid-containerA{
+                padding-top: 0px;
+                margin: 30px;
+                width: 900px auto;
+                height: 250px;
+                justify-content: center;
+                text-align: center;
+                align-items: center;
+            }
+            
+            #monitor_parent-div .monitor_grid-container .monitor_grid-containerA .monitor_grid-title-description {
+                height: 200px;
+                text-align: center;
+                height: 100%;
+                background-color: var(--bg-light-blue-5);
+                border-radius: 10px;
+                color: white;
+                padding-top: 30px;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+            
+            #monitor_parent-div .monitor_grid-container .monitor_grid-containerA .monitor_grid-title-description h2{
+              margin: 0;  
+              padding-bottom: 30px;
+            }
+            
+            #monitor_parent-div .monitor_grid-container .monitor_grid-containerA .monitor_grid-title-description p{
+                margin: 0;
+                padding-bottom: 30px;
+            }
+            
+            #monitor_parent-div .monitor_grid-container .monitor_grid-containerB {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-area: auto;
+                height: fit-content;
+                padding: 10px;
+                gap: 20px;
+                align-items: center;
+                margin-left: 40px;
+            }
+            
+            
+            .monitor1 {
+                position: relative;
+                height: 280px;
+                width: 400px;
+                border-radius: 40px;
+                
+            }
+            
+            .monitor2 {
+                position: relative;
+                height: 280px;
+                width: 400px;
+                border-radius: 40px;
+            
+            }
+            .monitor3 {
+                position: relative;
+                height: 280px;
+                width: 400px;
+                border-radius: 40px;
+            
+            }
+            .monitor4 {
+                position: relative;
+                height: 280px;
+                width: 400px;
+                border-radius: 40px;
+            
+            }
+            .monitor5 {
+                position: relative;
+                height: 280px;
+                width: 400px;
+                border-radius: 40px;
+            
+            }
+            .monitor6 {
+                position: relative;
+                height: 280px;
+                width: 400px;
+                border-radius: 40px;
+            
+            }
+        
+        /* MOBILE PHONE */
+
+    
+        #mobile_phone-parent-section{
+            height: 1250px;
+        }
+        
+        #mobile_phone_parent-div {
+            position: absolute;
+            margin: 0px;
+            width: 100%;
+            height: 1250px;
+            background-color: var(--bg-light-green-1);
+        }
+        
+        #mobile_phone_parent-div .monitor_grid-container {
+            position: relative;
+            height: 100%;
+            width: 100%;
+            padding: 10px;
+            gap: 10px;
+            align-items: center;
+            margin: 0; }
+        
+            #mobile_phone_parent-div .mobile_phone_grid-container .mobile_phone_grid-containerA{
+                padding-top: 0px;
+                margin: 30px;
+                width: 900px auto;
+                height: 250px;
+                justify-content: center;
+                text-align: center;
+                align-items: center;
+            }
+            
+            #mobile_phone_parent-div .mobile_phone_grid-container .mobile_phone_grid-containerA .mobile_phone_grid-title-description {
+                height: 200px;
+                text-align: center;
+                height: 100%;
+                background-color: var(--bg-light-blue-5);
+                border-radius: 10px;
+                color: white;
+                padding-top: 30px;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+            
+            #mobile_phone_parent-div .mobile_phone_grid-container .mobile_phone_grid-containerA .mobile_phone_grid-title-description h2{
+              margin: 0;  
+              padding-bottom: 30px;
+            }
+            
+            #mobile_phone_parent-div .mobile_phone_grid-container .mobile_phone_grid-containerA .mobile_phone_grid-title-description p{
+                margin: 0;
+                padding-bottom: 30px;
+            }
+            
+            #mobile_phone_parent-div .mobile_phone_grid-container .mobile_phone_grid-containerB {
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                grid-area: auto;
+                height: fit-content;
+                padding: 10px;
+                gap: 20px;
+                align-items: center;
+                margin-left: 40px;
+            }
+            
+            
+            .mobile_phone1 {
+                position: relative;
+                height: 280px;
+                width: 400px;
+                border-radius: 40px;
+                
+            }
+            
+            .mobile_phone2 {
+                position: relative;
+                height: 280px;
+                width: 400px;
+                border-radius: 40px;
+            
+            }
+            .mobile_phone3 {
+                position: relative;
+                height: 280px;
+                width: 400px;
+                border-radius: 40px;
+            
+            }
+
+            .mobile_phone4 {
+                position: relative;
+                height: 280px;
+                width: 400px;
+                border-radius: 40px;
+            }
+            .mobile_phone5 {
+                position: relative;
+                height: 280px;
+                width: 400px;
+                border-radius: 40px;
+            
+            }
+            .mobile_phone6 {
+                position: relative;
+                height: 280px;
+                width: 400px;
+                border-radius: 40px;
+            
+            }
 /* .cpu_title {}
 
 .cpu_title h2 {
