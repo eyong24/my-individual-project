@@ -129,14 +129,14 @@ body {
 /* cpu section */
 
 #cpu-parent-section{
-    height: 1450px;
+    height: 1300px;
 }
 
 #cpu_parent-div {
     position: absolute;
     margin: 0px;
     width: 100%;
-    height: 1450px;
+    height: 1300px;
     background-color: var(--bg-light-green-1);
 }
 
@@ -185,11 +185,11 @@ body {
 
 #cpu_parent-div .cpu_grid-container .cpu_grid-containerB {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
     grid-area: auto;
     height: fit-content;
     padding: 10px;
-    gap: 20px;
     align-items: center;
     margin: 0;
 }
@@ -201,48 +201,48 @@ body {
 .cpu1 {
     margin-left: 50px;
     position: relative;
-    height: 350px;
-    width: 350px;
+    height: 450px;
+    width: 450px;
     border-radius: 40px;
 }
 
 .cpu2 {
     margin-left: 50px;
     position: relative;
-    height: 350px;
-    width: 350px;
+    height: 450px;
+    width: 450px;
     border-radius: 40px;
 
 }
 .cpu3 {
     margin-left: 50px;
     position: relative;
-    height: 350px;
-    width: 350px;
+    height: 450px;
+    width: 450px;
     border-radius: 40px;
 
 }
 .cpu4 {
     margin-left: 50px;
     position: relative;
-    height: 350px;
-    width: 350px;
+    height: 450px;
+    width: 450px;
     border-radius: 40px;
 
 }
 .cpu5 {
     margin-left: 50px;
     position: relative;
-    height: 350px;
-    width: 350px;
+    height: 450px;
+    width: 450px;
     border-radius: 40px;
 
 }
 .cpu6 {
     margin-left: 50px;
     position: relative;
-    height: 350px;
-    width: 350px;
+    height: 450px;
+    width: 450px;
     border-radius: 40px;
 
 }
@@ -251,14 +251,14 @@ body {
 /* GPU SECTION */
 
 #gpu-parent-section{
-    height: 1250px;
+    height: 1100px;
 }
 
 #gpu_parent-div {
     position: absolute;
     margin: 0px;
     width: 100%;
-    height: 1250px;
+    height: 1100px;
     background-color: var(--bg-light-green-1);
 }
 
@@ -305,11 +305,11 @@ body {
     
     #gpu_parent-div .gpu_grid-container .gpu_grid-containerB {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+        gap: 40px;
         grid-area: auto;
         height: fit-content;
         padding: 10px;
-        gap: 20px;
         align-items: center;
         margin-left: 40px;
     }
@@ -317,44 +317,44 @@ body {
     
     .gpu1 {
         position: relative;
-        height: 280px;
-        width: 400px;
+        height: 360px;
+        width: 500px;
         border-radius: 40px;
         
     }
     
     .gpu2 {
         position: relative;
-        height: 280px;
-        width: 400px;
+        height: 360px;
+        width: 500px;
         border-radius: 40px;
     
     }
     .gpu3 {
         position: relative;
-        height: 280px;
-        width: 400px;
+        height: 360px;
+        width: 500px;
         border-radius: 40px;
     
     }
     .gpu4 {
         position: relative;
-        height: 280px;
-        width: 400px;
+        height: 360px;
+        width: 500px;
         border-radius: 40px;
     
     }
     .gpu5 {
         position: relative;
-        height: 280px;
-        width: 400px;
+        height: 360px;
+        width: 500px;
         border-radius: 40px;
     
     }
     .gpu6 {
         position: relative;
-        height: 280px;
-        width: 400px;
+        height: 360px;
+        width: 500px;
         border-radius: 40px;
     
     }
@@ -362,14 +362,14 @@ body {
     /* MOTHERBOARD */
 
     #motherboard-parent-section{
-        height: 1250px;
+        height: 1100px;
     }
     
     #motherboard_parent-div {
         position: absolute;
         margin: 0px;
         width: 100%;
-        height: 1250px;
+        height: 1100px;
         background-color: var(--bg-light-green-1);
     }
     
@@ -416,180 +416,71 @@ body {
         
         #motherboard_parent-div .motherboard_grid-container .motherboard_grid-containerB {
             display: grid;
-            grid-template-columns: repeat(2, 1fr);
+            grid-template-columns: repeat(3, 1fr);
             grid-area: auto;
             height: fit-content;
             padding: 10px;
-            gap: 20px;
+            gap: 40px;
             align-items: center;
-            margin-left: 40px;
+            margin-left: 60px;
         }
         
         
         .motherboard1 {
             position: relative;
-            height: 280px;
-            width: 400px;
+            height: 360px;
+            width: 500px;
             border-radius: 40px;
             
         }
         
         .motherboard2 {
             position: relative;
-            height: 280px;
-            width: 400px;
+            height: 360px;
+            width: 500px;
             border-radius: 40px;
         
         }
         .motherboard3 {
             position: relative;
-            height: 280px;
-            width: 400px;
+            height: 360px;
+            width: 500px;
             border-radius: 40px;
         
         }
         .motherboard4 {
             position: relative;
-            height: 280px;
-            width: 400px;
+            height: 360px;
+            width: 500px;
             border-radius: 40px;
         
         }
         .motherboard5 {
             position: relative;
-            height: 280px;
-            width: 400px;
+            height: 360px;
+            width: 500px;
             border-radius: 40px;
         
         }
         .motherboard6 {
             position: relative;
-            height: 280px;
-            width: 400px;
+            height: 360px;
+            width: 500px;
             border-radius: 40px;
         
         }
 
-    #motherboard-parent-section{
-        height: 1250px;
-    }
-    
-    #motherboard_parent-div {
-        position: absolute;
-        margin: 0px;
-        width: 100%;
-        height: 1250px;
-        background-color: var(--bg-light-green-1);
-    }
-    
-    #motherboard_parent-div .motherboard_grid-container {
-        position: relative;
-        height: 100%;
-        width: 100%;
-        padding: 10px;
-        gap: 10px;
-        align-items: center;
-        margin: 0; }
-    
-        #motherboard_parent-div .motherboard_grid-container .motherboard_grid-containerA{
-            padding-top: 0px;
-            margin: 30px;
-            width: 900px auto;
-            height: 250px;
-            justify-content: center;
-            text-align: center;
-            align-items: center;
-        }
-        
-        #motherboard_parent-div .motherboard_grid-container .motherboard_grid-containerA .motherboard_grid-title-description {
-            height: 200px;
-            text-align: center;
-            height: 100%;
-            background-color: var(--bg-light-blue-5);
-            border-radius: 10px;
-            color: white;
-            padding-top: 30px;
-            padding-left: 20px;
-            padding-right: 20px;
-        }
-        
-        #motherboard_parent-div .motherboard_grid-container .motherboard_grid-containerA .motherboard_grid-title-description h2{
-          margin: 0;  
-          padding-bottom: 30px;
-        }
-        
-        #motherboard_parent-div .motherboard_grid-container .motherboard_grid-containerA .motherboard_grid-title-description p{
-            margin: 0;
-            padding-bottom: 30px;
-        }
-        
-        #motherboard_parent-div .motherboard_grid-container .motherboard_grid-containerB {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            grid-area: auto;
-            height: fit-content;
-            padding: 10px;
-            gap: 20px;
-            align-items: center;
-            margin-left: 40px;
-        }
-        
-        
-        .motherboard1 {
-            position: relative;
-            height: 280px;
-            width: 400px;
-            border-radius: 40px;
-            
-        }
-        
-        .motherboard2 {
-            position: relative;
-            height: 280px;
-            width: 400px;
-            border-radius: 40px;
-        
-        }
-        .motherboard3 {
-            position: relative;
-            height: 280px;
-            width: 400px;
-            border-radius: 40px;
-        
-        }
-        .motherboard4 {
-            position: relative;
-            height: 280px;
-            width: 400px;
-            border-radius: 40px;
-        
-        }
-        .motherboard5 {
-            position: relative;
-            height: 280px;
-            width: 400px;
-            border-radius: 40px;
-        
-        }
-        .motherboard6 {
-            position: relative;
-            height: 280px;
-            width: 400px;
-            border-radius: 40px;
-        
-        }
-    
         /* MONITOR */
     
         #monitor-parent-section{
-            height: 1250px;
+            height: 1100px;
         }
         
         #monitor_parent-div {
             position: absolute;
             margin: 0px;
             width: 100%;
-            height: 1250px;
+            height: 1100px;
             background-color: var(--bg-light-green-1);
         }
         
@@ -636,56 +527,56 @@ body {
             
             #monitor_parent-div .monitor_grid-container .monitor_grid-containerB {
                 display: grid;
-                grid-template-columns: repeat(2, 1fr);
+                grid-template-columns: repeat(3, 1fr);
                 grid-area: auto;
                 height: fit-content;
                 padding: 10px;
-                gap: 20px;
+                gap: 40px;
                 align-items: center;
-                margin-left: 40px;
+                margin-left: 60px;
             }
             
             
             .monitor1 {
                 position: relative;
-                height: 280px;
-                width: 400px;
+                height: 360px;
+                width: 500px;
                 border-radius: 40px;
                 
             }
             
             .monitor2 {
                 position: relative;
-                height: 280px;
-                width: 400px;
+                height: 360px;
+                width: 500px;
                 border-radius: 40px;
             
             }
             .monitor3 {
                 position: relative;
-                height: 280px;
-                width: 400px;
+                height: 360px;
+                width: 500px;
                 border-radius: 40px;
             
             }
             .monitor4 {
                 position: relative;
-                height: 280px;
-                width: 400px;
+                height: 360px;
+                width: 500px;
                 border-radius: 40px;
             
             }
             .monitor5 {
                 position: relative;
-                height: 280px;
-                width: 400px;
+                height: 360px;
+                width: 500px;
                 border-radius: 40px;
             
             }
             .monitor6 {
                 position: relative;
-                height: 280px;
-                width: 400px;
+                height: 360px;
+                width: 500px;
                 border-radius: 40px;
             
             }
@@ -694,14 +585,14 @@ body {
 
     
         #mobile_phone-parent-section{
-            height: 1250px;
+            height: 1200px;
         }
         
         #mobile_phone_parent-div {
             position: absolute;
             margin: 0px;
             width: 100%;
-            height: 1250px;
+            height: 1200px;
             background-color: var(--bg-light-green-1);
         }
         
@@ -748,56 +639,56 @@ body {
             
             #mobile_phone_parent-div .mobile_phone_grid-container .mobile_phone_grid-containerB {
                 display: grid;
-                grid-template-columns: repeat(2, 1fr);
+                grid-template-columns: repeat(3, 1fr);
                 grid-area: auto;
                 height: fit-content;
                 padding: 10px;
-                gap: 20px;
+                gap: 40px;
                 align-items: center;
-                margin-left: 40px;
+                margin-left: 60px;
             }
             
             
             .mobile_phone1 {
                 position: relative;
-                height: 280px;
-                width: 400px;
+                height: 360px;
+                width: 500px;
                 border-radius: 40px;
                 
             }
             
             .mobile_phone2 {
                 position: relative;
-                height: 280px;
-                width: 400px;
+                height: 360px;
+                width: 500px;
                 border-radius: 40px;
             
             }
             .mobile_phone3 {
                 position: relative;
-                height: 280px;
-                width: 400px;
+                height: 360px;
+                width: 500px;
                 border-radius: 40px;
             
             }
 
             .mobile_phone4 {
                 position: relative;
-                height: 280px;
-                width: 400px;
+                height: 360px;
+                width: 500px;
                 border-radius: 40px;
             }
             .mobile_phone5 {
                 position: relative;
-                height: 280px;
-                width: 400px;
+                height: 360px;
+                width: 500px;
                 border-radius: 40px;
             
             }
             .mobile_phone6 {
                 position: relative;
-                height: 280px;
-                width: 400px;
+                height: 360px;
+                width: 500px;
                 border-radius: 40px;
             
             }
